@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Buzz Build') {
       steps {
-        sh 'date'
+        sh '/home/ec2-user/jenkins/build.sh'
       }
     }
 
